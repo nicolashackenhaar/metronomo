@@ -8,6 +8,10 @@ const subtractBeats = document.querySelector('.subtract-beats');
 const addBeats = document.querySelector('.add-beats');
 const measureCount = document.querySelector('.measure-count');
 
+const click1 = new Audio('click1.mp3');
+const click2 = new Audio('click2.mp3');
+
+
 
 let bpm = 140;
 let beatsPerMeasure = 4;
@@ -19,17 +23,15 @@ tempoSlider.addEventListener('input', tempoSlide);
 
 
 function decreaseTempo() {
-  if(bpm <= 20 ){ return }
+  if(bpm <= 20 ){ return };
   bpm--;
   updateMetronome();
-  
 }
 
 function increaseTempo() {
-  if(bpm >= 280 ){ return }
+  if(bpm >= 280 ){ return };
   bpm++;
   updateMetronome();
-  
 }
 
 function tempoSlide() {
