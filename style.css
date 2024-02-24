@@ -80,7 +80,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   /* Define a aparência do controle deslizante */
-  -webkit-appearance: none;
+  appearance: none;
   /* Remove a aparência padrão do navegador */
   appearance: none;
   /* Estiliza a barra do controle deslizante */
@@ -90,31 +90,6 @@ body {
 
   /* Borda arredondada */
   /* Estiliza o controle deslizante (a alça) */
-  &::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    /* Remove a aparência padrão do navegador */
-    appearance: none;
-    /* Define as dimensões e a aparência da alça */
-    width: 20px;
-    /* Largura */
-    height: 20px;
-    /* Altura */
-    background: #fa545c;
-    /* Cor de fundo da barra */
-    cursor: pointer;
-    /* Cursor ao passar por cima */
-    border-radius: 50%;
-    /* Forma arredondada */
-  }
-
-  &::-moz-range-thumb {
-    /* Define as mesmas propriedades que para o navegador Mozilla Firefox */
-    width: 20px;
-    height: 20px;
-    background: #fa545c;
-    cursor: pointer;
-    border-radius: 50%;
-  }
 }
 
 
@@ -164,7 +139,7 @@ body {
   line-height: 20px;
 }
 
-.beats-per-measure-text{
+.beats-per-measure-text {
   text-align: center;
   font-size: 0.8em;
   text-transform: uppercase;
