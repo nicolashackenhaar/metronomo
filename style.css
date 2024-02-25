@@ -34,11 +34,7 @@ body {
   font-size: 4em;
 }
 
-.tempo-text {
-  font-size: 1em;
-  text-transform: uppercase;
-  text-align: center;
-}
+
 
 .tempo-settings {
   display: flex;
