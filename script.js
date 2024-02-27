@@ -12,7 +12,7 @@ const click2 = new Audio('click2.mp3');
 
 
 
-let bpm = 120;
+let bpm = 140;
 let contagem = 3; // tics
 let contador = 0 // onde está a batida
 let taRodando = false
