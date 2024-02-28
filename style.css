@@ -97,7 +97,7 @@ body {
   height: 50px;
   font-size: 0.8em;
   text-align: center;
-  background-color: #fa545c;
+  background-color: #f4666d;
   border-radius: 50%;
   color: #fff;
   line-height: 52px;
@@ -106,7 +106,7 @@ body {
 }
 
 .start-stop:hover {
-  background-color: #fa656c;
+  background-color: #fd777e;
 }
 
 .measures {
