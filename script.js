@@ -41,18 +41,22 @@ function increaseTempo() {
 function tempoSlide() {
   bpm = tempoSlider.value;
   updateMetronome();
+  console.log(bpm)
 }
 
 
 function updateMetronome() {
   tempoDisplay.textContent = bpm;
   tempoSlider.value = bpm;
-  
-
+  bpm = tempoSlider.value;
 }
 
+
+
+
 function start(){
-  contador = 0
+  contador = 3
+
   if(!taRodando){
     intervalID = setInterval(play, 60000 / bpm)
     taRodando = true;
@@ -75,5 +79,9 @@ function play() {
     click2.play();
     console.log(contador)
     contador = 0
+    
+    
+
   }
+
 }
