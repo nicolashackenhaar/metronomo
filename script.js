@@ -45,6 +45,7 @@ function updateMetronome() {
   if (taRodando) {
     intervalID = setInterval(play, 60000 / bpm);
   }
+
 }
 
 function start() {
